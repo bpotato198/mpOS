@@ -3,31 +3,41 @@
 #include <Windows.h>
 #include "calls.h"
 
+
 void kernel() {
       char shellinput[1000];
-      printf("<ASH>>    ");
+      printf("ASH $    ");
       scanf("%99s", shellinput);
 
-      if (strcmp(shellinput, "ash") == 0) {
-              printf("ASH the CCOS shell version 0.2\n");
+      if (strcmp(shellinput, "ashll") == 0) {
+              printf("ASHLL the mpOS shell version 0.2\n");
               kernel();
 
-      } else {
-          
-        printf("no command such %s\n", shellinput);
+      } 
 
-      }
       if (strcmp(shellinput, "exit") == 0) {
-             printf("exiting ASH and CCOS\n");
+             printf("exiting ASHLL and mpOS\n");
              Sleep(1000);
-             return 0;
+             
              
 
       }
       if (strcmp(shellinput, "help") == 0) {
-           printf("CLICCOS ver0.2 codename rocks\n");
+           printf("mpOS ver0.1 codename rocks\n");
            kernel();
 
       }
+      if (strcmp(shellinput, "tartac") == 0) {
+                 tartac();
+                 kernel();
+          
+
+      }
+      else {
+          
+        printf("no command such as %s\n", shellinput);
+
+      }
+
 
 }

@@ -2,6 +2,7 @@
 
 void bootk();
 void kernel();
-
+void filesystem();
+void tartac();
 
 #endif // CALLS_H
