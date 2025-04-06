@@ -1,2 +1,8 @@
 # CLICCOS
-CLICCOS is made to mimic a real OS/Shell, it runs on the terminal, it uses its own shell named Ash, it currently has a bootloader, kernel and some apps
+*the home repository of the fake OS written in C and Assembly, made to simulate a real operating system
+
+Features
+
+Aash (A shell)
+Bootloader
+*
