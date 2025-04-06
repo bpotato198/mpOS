@@ -1,0 +1,4 @@
+CCOSC Wiki:
+
+  CMakeLists.txt is IF on Windows
+  and the makefile is for UNIX systems
