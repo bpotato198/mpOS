@@ -2,4 +2,4 @@
 
 # build script for CCOS uses CMake
 
-mkdir build && cd build && echo 'building makefiles...' && cmake ..  
+cd CCOSC && mkdir build && cd build && echo 'building makefiles...' && cmake ..  
