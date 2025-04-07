@@ -1,5 +1,5 @@
 #!/usr/bin/bash
 
-# build script for CCOS uses CMake
+# build script for CCOS uses Make
 
-cd mpos && cd src && mkdir build && cd build && echo 'building makefiles...' && cmake ..  
+cd mpos && cd src && make 
