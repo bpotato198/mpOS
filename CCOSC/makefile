@@ -1,9 +1,8 @@
 CC = gcc
 CFLAGS = -Wall -g -O2
 
-TARGET = ccosc
-SRCDIR = src
-SRCFILES = 
+TARGET = ccos
+SRCFILES = kernel.c boot.c main.c
 OBJS = $(SRCS:.c=.o)
 
 all: $(TARGET)
