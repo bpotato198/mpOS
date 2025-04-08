@@ -2,4 +2,4 @@
 
 # build script for CCOS uses Make
 
-cd mpos && cd src && make 
+cd mpos && make 
