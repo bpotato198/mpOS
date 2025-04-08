@@ -13,6 +13,11 @@
 # building
 *from source*
 1. git clone the repo
-2. make sure you have GCC or Clang and Cmake
-3. run `build.sh`
+2. make sure you have GCC and Make (if you want to use Clang, make sure to edit the makefile)
+3. run `make` **currently, make isnt working properly, probably due to incorrect makefile**
+4. then it will compile into a bunch of .o files and a executable
+5. run `make clean` to delete any .o files and leave only the executable
+6. run via `./mpos`
 
+
+*_its pure C!_*
