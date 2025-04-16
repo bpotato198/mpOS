@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -g -O2
 
-TARGET = mpos
+TARGET = ccos
 SRCFILES = kernel.c boot.c main.c
 OBJS = $(SRCS:.c=.o)
 

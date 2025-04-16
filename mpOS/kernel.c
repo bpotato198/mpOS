@@ -5,7 +5,6 @@
 #include "calls.h"
 
 
-
 void kernel() {
       char shellinput[1000];
       printf("ASHLL $ ");
@@ -14,6 +13,11 @@ void kernel() {
 
       if (strcmp(shellinput, "clr") == 0) {
         system("clear");
+        kernel();
+
+
+
+
 
       }
 
@@ -26,6 +30,7 @@ void kernel() {
 
       if (strcmp(shellinput, "infecth") == 0) {
           printf("__/-\_|-/ |_| S\n");
+          kernel();
       }
 
 
@@ -33,9 +38,10 @@ void kernel() {
       if (strcmp(shellinput, "exit") == 0) {
              printf("exiting ASHLL and mpOS\n");
              sleep(1);
+             return;
 
-             
-             
+
+
 
       }
       if (strcmp(shellinput, "bench") == 0) {
@@ -59,9 +65,8 @@ void kernel() {
       }
 
       if (strcmp(shellinput, "tartac") == 0) {
-                 tartac();
                  kernel();
-          
+
 
       }
       if (strcmp(shellinput, "0/0") == 0) {
@@ -75,8 +80,9 @@ void kernel() {
 
 
       else {
-          
+
         printf("no command such as %s\n", shellinput);
+        kernel();
 
       }
 
