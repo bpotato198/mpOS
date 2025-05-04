@@ -1,23 +1,29 @@
 # mpOS
-*the home repository of the fake OS written in C , made to simulate a real operating system*
+*the home repository of the fake OS written in C and C++, made to simulate a real operating system*
 *curenttly in development, most things like the bootloader or kernel are done, but apps are still in development*
 
 
-*there are two files, one `makefile` for Linux/BSD/MacOS and one `CMakeLists.txt` for windows*
 
-*requires: GCC or Clang*
-*CMake (if on windows), Make (if on Unix)
+*requires: GCC or Clang and Make and CMake if building mpOS2*
 
-***The `ccosc/` and `mpOS/` dirs are legacy code, use `mpOS2/` dir***
-
+***The `ccosc/` dir is legacy, `mpOS/` is the first version, and `mpOS2/` is the current version
 # building
 *from source*
-1. git clone the repo
-2. make sure you have GCC and Make (if you want to use Clang, make sure to edit the makefile)
-3. run `make` **currently, make isnt working properly, probably due to incorrect makefile**
-4. then it will compile into a bunch of .o files and a executable
-5. run `make clean` to delete any .o files and leave only the executable
-6. run via `./mpos`
+*mpOS*
+1. `git clone` this repository
+2. run `cd mpOS`
+3. then `make` *make sure to edit the makefile if on Clang*
+4. then run ./mpOS
 
+*mpOS2*
+1. `git clone` this repository
+2. run `cd mpOS2`
+3. then `mkdir build`
+4. then `cd build`
+5. then `cmake ..`
+6. and `cmake .`
+7. then `cmake ..`
+8. and after that `cmake --build .`
+9. run `./mpOS2`
 
-*_its pure C!_*
+*_its pure C and C++!_*
