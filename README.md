@@ -8,7 +8,7 @@
 *requires: GCC or Clang*
 *CMake (if on windows), Make (if on Unix)
 
-***The `ccosc/` dir is legacy code, use `mpOS/` dir***
+***The `ccosc/` and `mpOS/` dirs are legacy code, use `mpOS2/` dir***
 
 # building
 *from source*
