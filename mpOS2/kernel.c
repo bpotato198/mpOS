@@ -65,11 +65,6 @@ void kernel() {
 
       }
 
-      if (strcmp(shellinput, "tartac") == 0) {
-                 kernel();
-
-
-      }
       if (strcmp(shellinput, "0/0") == 0) {
           printf("WARNING! THIS IS A TEST COMMAND!! THIS WILL CRASH MPOS!\n");
           printf("YOU HAVE 4 SECONDS TO CANCEL IT!\n");
