@@ -23,20 +23,20 @@ void kernel() {
 
 
       if (strcmp(shellinput, "ashll") == 0) {
-              printf("ASHLL the mpOS shell version 0.2  \n");
+              printf("ASHLL the mpOS2 shell version 0.2  \n");
               kernel();
 
       }
 
       if (strcmp(shellinput, "infecth") == 0) {
-          printf("__/-\_|-/ |_| S\n");
+          printf("__/-\_|-/ |_| S2\n");
           kernel();
       }
 
 
 
       if (strcmp(shellinput, "exit") == 0) {
-             printf("exiting ASHLL and mpOS\n");
+             printf("exiting ASHLL and mpOS2\n");
              sleep(1);
              return;
 
@@ -53,13 +53,14 @@ void kernel() {
           for (int i = 0; i < loopcount; i++) {
               printf("loops: %s", benchinput);
           }
+          kernel();
 
       }
 
 
 
       if (strcmp(shellinput, "help") == 0) {
-           printf("mpOS ver0.1 codename rocks\n");
+           printf("mpOS ver0.2 codename rock\n");
            kernel();
 
       }
