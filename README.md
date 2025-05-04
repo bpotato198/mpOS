@@ -21,9 +21,7 @@
 3. then `mkdir build`
 4. then `cd build`
 5. then `cmake ..`
-6. and `cmake .`
-7. then `cmake ..`
-8. and after that `cmake --build .`
-9. run `./mpOS2`
+6. and after that `make`
+7. run `./mpOS2`
 
 *_its pure C*
